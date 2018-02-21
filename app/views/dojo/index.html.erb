@@ -1,0 +1,20 @@
+<h1>List of Dojos</h1>
+
+<table id="dojo_table">
+    <tr>
+      <th>Branch</td>
+      <th>Street</td>
+      <th>City</td>
+      <th>state</td>
+    </tr>
+  <% @dojos.each do |dojo| %>
+    <tr>
+      <td><%= dojo.branch %></td>
+      <td><%= dojo.street %></td>
+      <td><%= dojo.city %></td>
+      <td><%= dojo.state %></td>
+    </tr>
+  <% end %>  
+ 
+</table>
+

@@ -1,0 +1,35 @@
+// Place all the styles related to the Dojo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+h1{
+    color:green;
+    font-style: oblique;
+    font-size: 5em;
+    background-image: url("paper.gif");
+}
+
+
+#dojo_table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+#dojo_table td, #dojo_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#dojo_table tr:nth-child(even){background-color: #f2f2f2;}
+
+#dojo_table tr:hover {background-color: #ddd;}
+
+#dojo_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
